@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(250 249 251);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.fnt-w4{
+  font-weight: 400 !important;
+}
+.fnt-w5{
+  font-weight: 500 !important;
+}
+.fnt-w7{
+  font-weight: 700 !important;
+}
+.fnt-w8{
+  font-weight: 800 !important;
+}
+.fnt-wb{
+  font-weight: bold !important;
+}
+.fnt-sm{
+  font-size: small !important;
+}
+.fnt-smlr{
+  font-size: smaller !important;
+}
+.fnt-med{
+  font-size: medium !important;
+}
+.fnt-larg{
+  font-size: large !important;
+}
+.fnt-largr{
+  font-size: larger !important;
+}
+
+.bg-wt{
+  background: #fff !important;
+}
+
+.txt-gray{
+  color: #5a6c75 !important;
+}
+
+.h-100{
+  height: 100vh;
+}
+.scale15{
+  transform: scale(1.5);
+}
+
+.color-primary{
+  color: #04458f !important;
+}
+
+.force-apparence{
+  -webkit-appearance: auto !important;
+  appearance: auto !important;
+}
+
+.brd-b-dash{
+  border-bottom: #ffffff40 1px dashed;
+}
+
+.login-container{
+  position: absolute;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  width: -moz-available; 
+  height: -moz-available; 
+  width: fill-available;
+  height: fill-available;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.side-bg-container{
+  position: relative;
+  overflow-x: hidden;
+}
+.side-bg {
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 100%;
+  opacity: 1;
+  left: 0;
+}
+
+.btn_forget_mdp{
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #e45864;
+  text-align: right;
+}
+
+.btn-login{
+  border: none;
+  background-color: #0e2a47;
+  font-weight: 400;
+  border-radius: 8px;
+  box-shadow: -1px 0px 5px rgb(0 0 0 / 8%);
+  border: none;
+}
+
+
+.header-box{
+  background: rgb(4,69,143);
+  background: -moz-linear-gradient(0deg, rgba(4,69,143,1) 17%, rgba(14,42,71,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(4,69,143,1) 17%, rgba(14,42,71,1) 100%);
+  background: linear-gradient(0deg, rgba(4,69,143,1) 17%, rgba(14,42,71,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#04458f",endColorstr="#0e2a47",GradientType=1);
+  color: #fff;
+}
+
+
+.car-box{
+
+  background: #fff;
+  border-radius: 8px;
+  border: #e4e6eb 1px solid;
+  box-shadow: -2px 5px 5px rgb(0 0 0 / 5%);
+
+}
+
+.brand-container {
+  background: #04458f14;
+}
+
+.brand-img{
+  height: 120px;
+}
